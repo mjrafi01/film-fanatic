@@ -103,9 +103,15 @@ export const Navbar = () => {
           </button>
         )}
         <div className="avatar">
+<<<<<<< HEAD
        {user && <div className="w-12 rounded-full border-2 border-black">
             <img src={user?.photoURL || "/public/placeholder.jpg"} />
           </div> }   
+=======
+          <div className="w-12 rounded-full border-2 border-black">
+            <img src={user?.photoURL || "/public/placeholder.jpg"} />
+          </div>
+>>>>>>> origin/main
         </div>
       </div>
     </div>

@@ -1,8 +1,11 @@
 import React from 'react'
 import { json, useLoaderData } from 'react-router-dom';
 import { useState } from "react";
+<<<<<<< HEAD
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+=======
+>>>>>>> origin/main
 
 export const EditProduct = () => {
   const movie = useLoaderData();

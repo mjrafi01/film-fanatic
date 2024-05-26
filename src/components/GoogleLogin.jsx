@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import useAuth from '../hooks/userAuth';
 import { FcGoogle } from "react-icons/fc";
@@ -15,6 +16,18 @@ export const GoogleLogin = () => {
       console.error('Google Sign-in Error:', error);
       // Handle any errors if needed
     }
+=======
+import React from 'react'
+import useAuth from '../hooks/userAuth';
+import { FcGoogle } from "react-icons/fc";
+
+
+export  const GoogleLogin = () => {
+  const { googleLogin } = useAuth();
+
+  const handleGoogleSignIn = () => {
+    googleLogin();
+>>>>>>> origin/main
   };
 
   return (
@@ -26,3 +39,7 @@ export const GoogleLogin = () => {
     </button>
   );
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
